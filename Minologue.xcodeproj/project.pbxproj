@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711008DB2A54FEA2009EE23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7195FBC32A54F718009A66BF /* Assets.xcassets */; };
+		711008DC2A54FEA2009EE23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7195FBC32A54F718009A66BF /* Assets.xcassets */; };
+		711008E52A550330009EE23E /* LongCang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 711008E42A550330009EE23E /* LongCang.ttf */; };
+		7140E38A2A55067D0087382A /* LongCang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 711008E42A550330009EE23E /* LongCang.ttf */; };
+		7140E38B2A55067E0087382A /* LongCang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 711008E42A550330009EE23E /* LongCang.ttf */; };
 		7195FBC02A54F718009A66BF /* MinologueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195FBBF2A54F718009A66BF /* MinologueApp.swift */; };
 		7195FBC22A54F718009A66BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195FBC12A54F718009A66BF /* ContentView.swift */; };
 		7195FBC42A54F718009A66BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7195FBC32A54F718009A66BF /* Assets.xcassets */; };
@@ -14,6 +19,7 @@
 		7195FBD12A54F718009A66BF /* MinologueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195FBD02A54F718009A66BF /* MinologueTests.swift */; };
 		7195FBDB2A54F718009A66BF /* MinologueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195FBDA2A54F718009A66BF /* MinologueUITests.swift */; };
 		7195FBDD2A54F718009A66BF /* MinologueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195FBDC2A54F718009A66BF /* MinologueUITestsLaunchTests.swift */; };
+		7195FBEA2A54F788009A66BF /* EnterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195FBE92A54F788009A66BF /* EnterPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711008E42A550330009EE23E /* LongCang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LongCang.ttf; sourceTree = "<group>"; };
 		7195FBBC2A54F718009A66BF /* Minologue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minologue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7195FBBF2A54F718009A66BF /* MinologueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinologueApp.swift; sourceTree = "<group>"; };
 		7195FBC12A54F718009A66BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		7195FBD62A54F718009A66BF /* MinologueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinologueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7195FBDA2A54F718009A66BF /* MinologueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinologueUITests.swift; sourceTree = "<group>"; };
 		7195FBDC2A54F718009A66BF /* MinologueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinologueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7195FBE92A54F788009A66BF /* EnterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		711008DD2A550021009EE23E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				711008E42A550330009EE23E /* LongCang.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		7195FBB32A54F718009A66BF = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +113,8 @@
 				7195FBBF2A54F718009A66BF /* MinologueApp.swift */,
 				7195FBC12A54F718009A66BF /* ContentView.swift */,
 				7195FBC32A54F718009A66BF /* Assets.xcassets */,
+				7195FBE92A54F788009A66BF /* EnterPage.swift */,
+				711008DD2A550021009EE23E /* fonts */,
 				7195FBC52A54F718009A66BF /* Preview Content */,
 			);
 			path = Minologue;
@@ -233,6 +251,7 @@
 			files = (
 				7195FBC72A54F718009A66BF /* Preview Assets.xcassets in Resources */,
 				7195FBC42A54F718009A66BF /* Assets.xcassets in Resources */,
+				711008E52A550330009EE23E /* LongCang.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711008DB2A54FEA2009EE23E /* Assets.xcassets in Resources */,
+				7140E38B2A55067E0087382A /* LongCang.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711008DC2A54FEA2009EE23E /* Assets.xcassets in Resources */,
+				7140E38A2A55067D0087382A /* LongCang.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7195FBEA2A54F788009A66BF /* EnterPage.swift in Sources */,
 				7195FBC22A54F718009A66BF /* ContentView.swift in Sources */,
 				7195FBC02A54F718009A66BF /* MinologueApp.swift in Sources */,
 			);
@@ -420,11 +444,13 @@
 				DEVELOPMENT_TEAM = MU6T7JZBH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Minologue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +475,13 @@
 				DEVELOPMENT_TEAM = MU6T7JZBH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Minologue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

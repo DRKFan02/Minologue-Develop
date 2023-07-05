@@ -11,7 +11,8 @@ import SwiftUI
 struct MinologueApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EnteringPage()
         }
     }
 }
+
